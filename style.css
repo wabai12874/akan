@@ -3,6 +3,8 @@
     background-size: 1920px 1080px;
     background-repeat: no-repeat;
     min-height: 100%;
+    margin:0;
+    padding:0;
 }
 .image1{
     position: absolute;
@@ -22,7 +24,88 @@
     font-family: "Segoe UI";
     font-size: 30px;
     position: absolute;
+    letter-spacing: 1px;
     top: 250px;
-    left: 755px;
+    left: 700px;
     text-align: right;
+}
+.btn1{
+    height: 70px;
+    width: 210px;
+    border-radius: 50px;
+    border: none;
+    background-color: white;
+    color: #FD5101;
+    font-size: 25px;
+    font-weight: bolder;
+    font-family: "Segoe UI";
+    letter-spacing: 1px;
+}
+.btn1div{
+    position: absolute;
+    left: 1250px;
+    top: 550px;
+}
+.divider{
+    background-color: white;
+    height: 50%;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    opacity: 90%;
+}
+.form1{
+    position: absolute;
+    top: 130px;
+    left: 600px;
+    height: auto;
+    width: 400px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    background-color: white;
+    color: #FD5101;
+    border-radius: 30px;
+
+}
+input{
+    height: 50px;
+    width: 93%;
+    padding-top: 5px;
+    border-radius: 50px;
+    border-color: #FD5101;
+    border-width: 4px;
+    padding-left: 20px;
+
+}
+select{
+    height: 60px;
+    width: 100%;
+    border-radius: 50px;
+    border-color: #FD5101;
+    border-width: 4px;
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+label{
+    font-size: 25px;
+    font-family: "Segoe UI";
+}
+.date{
+    font-size: 20px;
+}
+.year{
+    font-size: 20px;
+}
+.btn2{
+    height: 60px;
+    width: 100%;
+    border: none;
+    color: white;
+    font-family: "Segoe UI";
+    font-size: 22px;
+    padding-bottom: 5px;
+    background-color: #FD5101;
 }
