@@ -6,6 +6,9 @@
     margin:0;
     padding:0;
 }
+h1{
+    text-shadow: #E4E4E4;
+}
 .image1{
     position: absolute;
     top: 150px;
@@ -108,4 +111,51 @@ label{
     font-size: 22px;
     padding-bottom: 5px;
     background-color: #FD5101;
+}
+
+.form3{
+    position: absolute;
+    top: 900px;
+    left: 600px;
+    height: auto;
+    width: 400px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    background-color: white;
+    color: #FD5101;
+    border-radius: 30px;
+
+}
+
+.divider2{
+    background-color: white;
+    height: 50%;
+    width: 100%;
+    position: absolute;
+    top: 90%;
+    opacity: 100%;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.btn4{
+    background-image: url("images/icontop.png");
+    width: 75px;
+    height: 41px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: white;
+    border: none;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    position: absolute;
+    left: 48%;
+    top: 93%;
+
 }

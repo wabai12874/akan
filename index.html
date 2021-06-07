@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="style.css">
     <title>Akan Generator</title>
 </head>
-<body class="mainsite" >
+<body class="mainsite" id="top" >
     <div class="image1">
         <img src="images/kitenge.png" width="500" height="500">
     </div>
@@ -15,7 +15,7 @@
 
     </div>
     <div class="text2">
-        <p>
+        <p style="text-shadow: #E4E4E4">
             In many parts of Ghana and elsewhere in West Africa,<br>
             A person's name is determined by the day of the week<br>
             On which they were born. Akan names are derived<br>
@@ -25,9 +25,47 @@
         </p>
     </div>
     <div class="btn1div">
-        <a href="form.html"><input class="btn1" type="button" value="Try it out"></a>
+        <a href="#form"><input class="btn1" type="button" value="Try it out"></a>
     </div>
 
+    <div class="divider2">
+        <img src="images/bkg5.png" width="1646" height="718">
+    </div>
+
+    <div class="buttontop">
+        <a href="#top"><input type="button" class="btn4"></a>
+    </div>
+
+    <div class="form3" id="form">
+        <form>
+            <label class="formlabel" >Date of Birth</label><br><br>
+            <select name="month" required>
+                <option value="1">January</option>
+                <option value="2">February</option>
+                <option value="3">March</option>
+                <option value="4">April</option>
+                <option value="5">May</option>
+                <option value="6">June</option>
+                <option value="7">July</option>
+                <option value="8">August</option>
+                <option value="9">September</option>
+                <option value="10">October</option>
+                <option value="11">November</option>
+                <option value="12">December</option>
+            </select><br><br>
+            <input type="number" class="date" minlength="1" maxlength="2" required placeholder="Date"><br><br>
+            <input type="number" class="year" minlength="4" maxlength="4" required placeholder="Year"><br><br>
+
+            <label class="formlabel">Gender</label><br><br>
+
+            <select name="gender" required>
+                <option value="1">Male</option>
+                <option value="2">Female</option>
+
+            </select><br><br>
+            <a href="index.html"><input class="btn2" type="button"  value="Submit"></a>
+        </form><br><br><br>
+    </div>
 
 
 </body>
