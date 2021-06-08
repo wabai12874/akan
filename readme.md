@@ -20,7 +20,7 @@ on github. All that is needed is an active internet
 connection
 
 ## Project link for live webpage.
-[https://github.com/wabai12874/akan.git](https://github.com/wabai12874/akan.git)
+[https://wabai12874.github.io/akan/](https://wabai12874.github.io/akan/)
 
 ## Contributing
 
