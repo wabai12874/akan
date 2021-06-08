@@ -8,6 +8,11 @@ depending on your gender.
 
 Brian Maringa Wabai
 
+##Contact Information
+[brianmaringa19@gmail.com](brianmaringa19@gmail.com)<br>
+101377-00101<br>
+NAIROBI, KENYA.
+
 ## Setup Instructions.
 
 Download project zip file from github repository
@@ -18,6 +23,10 @@ One can also run the URL link to the live page on any
 browser on your computer since the portfolio is live
 on github. All that is needed is an active internet
 connection
+
+##Technologies used
+Phpstorm as Code Editor
+Github for hosting and storing repository
 
 ## Project link for live webpage.
 [https://wabai12874.github.io/akan/](https://wabai12874.github.io/akan/)
