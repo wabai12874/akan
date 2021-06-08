@@ -27,6 +27,8 @@ function getAkanName () {
     }
 
 
+
+
     //validation function for days of the month.
     function valDay(){
         //leap year
@@ -48,7 +50,7 @@ function getAkanName () {
             }
         }
         //30 days
-        else if (varMonth===4){
+        else if (varMonth===4 || varMonth===6 || varMonth===9 || varMonth===11){
             if (varDate>=1 && varDate<=30){
                 return true
             }
@@ -56,36 +58,23 @@ function getAkanName () {
                 return false;
             }
         }
-        else if (varMonth===6){
-            if (varDate>=1 && varDate<=30){
+
+        //validation of the 31 days
+        else if (varMonth===1 || varMonth===3 || varMonth===5 || varMonth===7 || varMonth===8 || varMonth===10 || varMonth===12){
+            if (varDate>=1 && varDate<=31){
                 return true
             }
             else {
                 return false;
             }
         }
-        else if (varMonth===9){
-            if (varDate>=1 && varDate<=30){
-                return true
-            }
-            else {
-                return false;
-            }
+        else{
+            return false;
         }
-        else if (varMonth===11){
-            if (varDate>=1 && varDate<=30){
-                return true
-            }
-            else {
-                return false;
-            }
-        }
+
 
     }
-
-
-
-
+    
     //validation variables
     let monthValid = valMonth();
     let dayValid = valDay();
