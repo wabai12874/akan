@@ -8,7 +8,7 @@ depending on your gender.
 
 Brian Maringa Wabai
 
-##Contact Information
+## Contact Information
 [brianmaringa19@gmail.com](brianmaringa19@gmail.com)<br>
 101377-00101<br>
 NAIROBI, KENYA.
