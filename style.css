@@ -147,7 +147,7 @@ label{
 
 .form3{
     position: absolute;
-    top: 770px;
+    top: 820px;
     left: 600px;
     height: auto;
     width: 400px;
@@ -182,12 +182,8 @@ html{
     background-repeat: no-repeat;
     background-color: white;
     border: none;
-    padding-left: 2px;
-    padding-right: 2px;
-    padding-top: 2px;
-    padding-bottom: 2px;
     position: absolute;
-    left: 48%;
+    left: 47%;
     top: 93%;
 
 }
