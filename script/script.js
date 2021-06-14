@@ -5,6 +5,8 @@ function getAkanName () {
     let varDate = Number(document.getElementById("varDate").value);
     let genders = document.getElementsByName("gender");
 
+
+
     // function to get gender
     function getGender () {
         for (let gender of genders){
@@ -74,7 +76,7 @@ function getAkanName () {
 
 
     }
-    
+
     //validation variables
     let monthValid = valMonth();
     let dayValid = valDay();
@@ -82,6 +84,9 @@ function getAkanName () {
     //Formula to determine day of birth given all input variables
     let dayNumber = Math.floor((((Number(varYear.slice(0,2))/4)-2*Number(varYear.slice(0,2))-1)+
         ((5*Number(varYear.slice(2,4))/4))+((26*(varMonth+1)/10))+varDate)%7);
+
+
+
 
 //arrays for days of the week
     let weekDays = [
@@ -96,16 +101,28 @@ function getAkanName () {
         "Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"
     ];
 
+
+
     //selecting items on the arrays
+    var DOB = new Date(varYear + "/" + varMonth + "/" + varDate);
+    var exactDay = DOB.getDay();
+
     let index;
-    // code to minus one from the day of the week since the array index for the weekDays will be 6 and not 7(weekDays[0] to weekDays[6])
-    if (dayNumber == 0){
-        index = 6;
+    if (exactDay == 0){
+        index = 0;
     } else {
-        index = dayNumber - 1;
+        index = exactDay;
     }
 
     console.log(index);
+
+
+
+
+
+
+
+
 
     if (varGender == "male" && monthValid && dayValid) {
         document.getElementById('result').textContent = "Born on a " + weekDays[index] + " , Your Akan name is " + akanMale[index];
