@@ -194,5 +194,28 @@ b{
     color: black;
 }
 
+@media (min-width: 1440px) {
+    html{
+        scroll-behavior: smooth;
+    }
+    .form3{
+        position: absolute;
+        top: 820px;
+        left: 600px;
+        height: auto;
+        width: 400px;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 30px;
+        padding-bottom: 40px;
+        background-color: white;
+        color: #FD5101;
+        border-radius: 30px;
+
+    }
+
+
+}
+
 
 
