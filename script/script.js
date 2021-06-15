@@ -118,10 +118,7 @@ function getAkanName () {
 
 
 
-
-
-
-
+//logic for the form that helps check which akan name to pick based on date of birth. most important part of the code
 
 
     if (varGender == "male" && monthValid && dayValid) {
